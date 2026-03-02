@@ -15,7 +15,7 @@ This analysis aims to understand sales and profitability performance across prod
 A **Star Schema** was built to enable structured analysis:
 
 - **Fact Table:** Sales  
-- **Dimensions:** Product, Category, Territory, Time  
+- **Dimensions:** Product, Territory, SalesPerson  
 
 This structure allows multi-dimensional analysis to explore the relationship between sales and profitability by region and product.
 
@@ -44,7 +44,7 @@ This structure allows multi-dimensional analysis to explore the relationship bet
 ---
 
 ### 3️⃣ Regional Profitability  
-- Analyzed **total sales and profit margin by region**.  
+- Analyzed **total Revenue and profit margin by region**.  
 - Observed:  
   - Some regions have low sales but high profit margins  
   - Some regions have high sales but low profit margins  
